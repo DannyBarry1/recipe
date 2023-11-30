@@ -20,6 +20,248 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding-left: 50px;
+        }
+
+        h1 {
+            color: #000;
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: -10px;
+        }
+
+        .brief {
+            padding-top: 52px;
+            width: 330px;
+        }
+
+        .brief-text {
+            color: var(--Gray-2, #4F4F4F);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-style: italic;
+            font-weight: 500;
+            line-height: normal;
+            
+        }
+
+        .image {
+            width: 330px;
+            height: 220px;
+            position: relative;
+            left: -10px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        }
+        .procedure{
+            width: 322px;
+        }
+
+        .steps {
+            width: 330px;
+            padding-bottom: 25px;
+        }
+
+        .step-text{
+            color: #000;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 24px */
+        }
+
+        .step {
+            width: 330px;
+            padding-bottom: 15px;
+        }
+
+        .attribute {
+            color: var(--Gray-4, #BDBDBD);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 150%; /* 24px */
+            width: 352px;
+        }
+
+        .ingredients {
+            width: 322px;
+        }
+
+        h6 {
+            color: var(--Gray-1, #333);
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        
+        .rectangles {
+            width: 21px;
+            height: 21px;
+            display: flex;
+            flex-shrink: 0;
+            border-radius: 4px;
+            border: 1px solid var(--Gray-3, #828282, transparent);
+            background-color: orange;
+            align-content: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+
+
+        .rectangle {
+            width: 21px;
+            height: 21px;
+            display: flex;
+            flex-shrink: 0;
+            border-radius: 4px;
+            border: 1px solid var(--Gray-3, #828282);
+            margin-right: 13px;
+        }
+
+        .name {
+            color: var(--Gray-1, #333);
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+
+        .matte {
+            color: var(--Gray-1, #333);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; /* 156.25% */
+            width: 400px;
+            position: relative;
+            top: -15px;
+        }
+
+        .rectarrange {
+            display: flex;
+        }
+
+        .number {
+            color: #FFF;
+            font-family: 'Playfair Display', serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .bold {
+            font-weight: 700;
+        }
+
+
+        #foot {
+            color: #828282;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .text {
+            color: #000;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 24px */
+        }
+
+        .bend {
+            font-style: italic;
+        }
+
+        .note {
+            color: var(--Gray-4, #BDBDBD);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 9px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+
+        .notes {
+            color: var(--Gray-1, #333);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 8px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            position: relative;
+            top: -10px;
+            left: 1px;
+        }
+
+        .sidenote {
+            border-radius: 12px;
+            background: #FFF;
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-top:20px;
+        }
+
+        .clock {
+            width: 15px;
+            height: 15px;
+            position: relative;
+            top: 10px;
+            background-color: white;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            background-color: #FFF;
+        }
+
+        .card {
+            display: flex;
+        }
+
+        .sidebyside {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .orange {
+            color: orange;
+        }
+
+
+        @media screen and (min-width: 768px) {
+            .central {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         h1 {
@@ -70,8 +312,6 @@
         }
 
         .step-text{
-            color: #000;
-            font-family: 'Montserrat', sans-serif;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -84,12 +324,7 @@
         }
 
         .attribute {
-            color: var(--Gray-4, #BDBDBD);
-            font-family: 'Montserrat', sans-serif;
             font-size: 16px;
-            font-style: italic;
-            font-weight: 400;
-            line-height: 150%; /* 24px */
             width: 1152px;
         }
 
@@ -98,21 +333,12 @@
         }
 
         h6 {
-            color: var(--Gray-1, #333);
-            font-family: 'Playfair Display', serif;
             font-size: 24px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
         }
         
         .rectangles {
             width: 21px;
             height: 21px;
-            display: flex;
-            flex-shrink: 0;
-            border-radius: 4px;
-            border: 1px solid var(--Gray-3, #828282, transparent);
             background-color: orange;
             align-content: center;
             justify-content: center;
@@ -123,93 +349,34 @@
         .rectangle {
             width: 21px;
             height: 21px;
-            display: flex;
-            flex-shrink: 0;
-            border-radius: 4px;
-            border: 1px solid var(--Gray-3, #828282);
             margin-right: 18px;
         }
 
         .name {
-            color: var(--Gray-1, #333);
-            font-family: 'Playfair Display', serif;
             font-size: 18px;
-            font-style: italic;
-            font-weight: 400;
-            line-height: normal;
         }
 
 
         .matte {
-            color: var(--Gray-1, #333);
-            font-family: 'Montserrat', sans-serif;
             font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 25px; /* 156.25% */
             width: 600px;
             position: relative;
             top: -15px;
         }
 
-        .rectarrange {
-            display: flex;
-        }
-
-        .number {
-            color: #FFF;
-            font-family: 'Playfair Display', serif;
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-        }
-
-        .bold {
-            font-weight: 700;
-        }
-
-
-        #foot {
-            color: #828282;
-            text-align: center;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-        }
-
+        
         .text {
-            color: #000;
-            font-family: 'Montserrat', sans-serif;
             font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 150%; /* 24px */
         }
 
-        .bend {
-            font-style: italic;
-        }
+        
 
         .note {
-            color: var(--Gray-4, #BDBDBD);
-            font-family: 'Montserrat', sans-serif;
             font-size: 13px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            text-transform: uppercase;
         }
 
         .notes {
-            color: var(--Gray-1, #333);
-            font-family: 'Montserrat', sans-serif;
             font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
             position: relative;
             top: -10px;
             left: 1px;
@@ -240,24 +407,15 @@
             background-color: white;
         }
 
-        img {
-            width: 100%;
-            height: 100%;
-            background-color: #FFF;
-        }
-
-        .card {
-            display: flex;
-        }
-
+        
         .sidebyside {
             display: flex;
-            flex-direction: row;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
         }
-
-        .orange {
-            color: orange;
-        }
+            
+    }
+        
     </style>
 </head>
 <body>
@@ -277,12 +435,56 @@
     <section class="ingredients">
         <!--First thing-->
         <section class="sidebyside">
+
+            <div class="sidenote">
+                <div class="card">
+                    <div class="clock">
+                        <img src="./restaurant_8579560.png">
+                    </div>
+                <article>
+                    <p class="note">YIELDS</p>
+                    <p class="notes orange">12 servings</p>
+                </article>
+            </div>
+    
+    
+                <div class="card"> 
+                    <div class="clock">
+                        <img src="./clock.png">
+                    </div>
+                    <article>
+                        <p class="note">PREP TIME</p>
+                        <p class="notes">45 minutes</p>
+                    </article>
+                </div>
+    
+                <div class="card">
+                    <div class="clock">
+                        <img src="./clock.png">
+                    </div> 
+                    <article>
+                        <p class="note">COOK TIME</p>
+                        <p class="notes">1 hour</p>
+                    </article>
+                </div>
+    
+               <div class="card">
+                <div class="clock">
+                        <img src="./clock.png">
+                    </div> 
+                    <article>
+                        <p class="note">TOTAL TIME</p>
+                        <p class="notes">7.75 hours</p>
+                    </article>
+                </div>
+            </div>
+    
     
         <div>
             <h6>Ingredients</h6>
             <p class="name">Graham Cracker Crust</p>
         <div class="rectarrange">
-            <div class="rectangle"></div><p class="matte">1 and 1/2 cups (150g) <span class="bold"> graham cracker crumbs </span>(about 10 full sheet graham crackers)</p>
+            <div class="rectangle"></div><p class="matte">1 and 1/2 cups (150g) <span class="bold"> graham cracker crumbs<br> </span>(about 10 full sheet graham crackers)</p>
         </div>
         <div class="rectarrange">
             <div class="rectangle"></div><p class="matte">5 Tablespoons (70g) <span class="bold"> unsalted butter</span>, melted</p>
@@ -294,64 +496,22 @@
         </div>
 
 
-        <div class="sidenote">
-            <div class="card">
-                <div class="clock">
-                    <img src="./restaurant_8579560.png">
-                </div>
-            <article>
-                <p class="note">YIELDS</p>
-                <p class="notes orange">12 servings</p>
-            </article>
-        </div>
-
-
-            <div class="card"> 
-                <div class="clock">
-                    <img src="./clock.png">
-                </div>
-                <article>
-                    <p class="note">PREP TIME</p>
-                    <p class="notes">45 minutes</p>
-                </article>
-            </div>
-
-            <div class="card">
-                <div class="clock">
-                    <img src="./clock.png">
-                </div> 
-                <article>
-                    <p class="note">COOK TIME</p>
-                    <p class="notes">1 hour</p>
-                </article>
-            </div>
-
-           <div class="card">
-            <div class="clock">
-                    <img src="./clock.png">
-                </div> 
-                <article>
-                    <p class="note">TOTAL TIME</p>
-                    <p class="notes">7.75 hours</p>
-                </article>
-            </div>
-        </div>
-
+        
     </section>
-        <div>
+    <div>
             <p class="name">Cheesecake</p>
 
         <!--rectangle settings-->
             <div class="rectarrange">
                 <div class="rectangle"></div>
-                <div><p class="matte">four 8-ounce blocks (904g) full-fat <span class="bold">cream cheese</span>, softened to room temperature</p></div>
+                <div><p class="matte">four 8-ounce blocks (904g) full-fat <span class="bold">cream<br> cheese</span>, softened to room temperature</p></div>
             </div>
 
             <div class="rectarrange">
                 <div class="rectangle"></div><p class="matte">1 cup (200g) <span class="bold">granulated sugar</span></p>
             </div>
             <div class="rectarrange">
-                    <div class="rectangle"></div><p class="matte">1 cup (240g) full-fat <span class="bold">sour cream</span>, at room temperature</p>
+                    <div class="rectangle"></div><p class="matte">1 cup (240g) full-fat <span class="bold">sour cream</span>, at room<br> temperature</p>
             </div>
             <div class="rectarrange">
                     <div class="rectangle"></div><p class="matte">1 teaspoon <span class="bold">pure vanilla extract</span></p>
@@ -363,7 +523,7 @@
                     <div class="rectangle"></div><p class="matte">3 large <span class="bold">eggs</span>, at room temperature</p>
             </div>
             <div class="rectarrange">
-                        <div class="rectangle"></div><p class="matte">topping suggestions: <span class="bend"> salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganache, fresh fruit, whipped cream, or raspberry sauce</span> (recipe in notes) </p>
+                        <div class="rectangle"></div><p class="matte">topping suggestions: <span class="bend"> salted caramel, lemon<br> curd, strawberry topping, chocolate ganache, red wine chocolate ganache, fresh fruit, whipped cream, or raspberry sauce</span> (recipe in notes) </p>
             </div>
     </div>
     </section>
